@@ -1,0 +1,7 @@
+ char message[] = "text that will be displayed";
+      Serial.println("");
+      for(int i=0; i<strlen(message); i++)
+      {
+        Serial.print(message[i]);
+        delay(10);
+        }
